@@ -10,7 +10,7 @@ import { Bars3BottomRightIcon } from "@heroicons/react/20/solid";
 
 const Header = () => {
 	return (
-		<div className=" max-w-[1260px] mx-auto bg-white px-8 py-5 rounded-b-xl flex items-center justify-between  shadow-header">
+		<div className=" max-w-[1260px] w-full mx-auto bg-white px-8 py-5 rounded-b-xl flex items-center justify-between  shadow-header">
 			{/* logo part */}
 			<Image
 				src={logo}

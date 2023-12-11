@@ -11,13 +11,19 @@ const config: Config = {
 		extend: {
 			colors: {
 				primary: "#3C50E0",
-				primary_normal: "#00005C",
+				primary_deep: "#00005C",
 				background: "#F4F7FC",
 				c_gray: "#627193",
 			},
 			boxShadow: {
 				button: "0px 20px 30px -16px rgba(60, 80, 224, 0.25)",
 				header: "0px 15px 30px 0px rgba(0, 0, 0, 0.04)",
+			},
+			width: {
+				body: "1260px",
+			},
+			maxWidth: {
+				body: "1260px",
 			},
 		},
 	},
